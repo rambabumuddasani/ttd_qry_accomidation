@@ -1,0 +1,9 @@
+2024-03-05T11:24:55.075+05:30  INFO 50644 --- [main] c.t.a.q.QryAccomidationApplication       : Starting QryAccomidationApplication using Java 17.0.7 with PID 50644 (/Users/ram/work/qry_accomidation/target/classes started by ram in /Users/ram/work/qry_accomidation)
+2024-03-05T11:24:55.077+05:30  INFO 50644 --- [main] c.t.a.q.QryAccomidationApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-03-05T11:24:55.506+05:30  INFO 50644 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-03-05T11:24:55.511+05:30  INFO 50644 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-05T11:24:55.511+05:30  INFO 50644 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-05T11:24:55.534+05:30  INFO 50644 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-05T11:24:55.534+05:30  INFO 50644 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 422 ms
+2024-03-05T11:24:55.721+05:30  INFO 50644 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-03-05T11:24:55.728+05:30  INFO 50644 --- [main] c.t.a.q.QryAccomidationApplication       : Started QryAccomidationApplication in 0.898 seconds (process running for 1.079)

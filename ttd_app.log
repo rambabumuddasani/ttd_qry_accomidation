@@ -1,0 +1,13 @@
+2024-03-05T11:29:38.362+05:30  INFO 50954 --- [main] c.t.a.q.QryAccomidationApplication       : Starting QryAccomidationApplication using Java 17.0.7 with PID 50954 (/Users/ram/work/qry_accomidation/target/classes started by ram in /Users/ram/work/qry_accomidation)
+2024-03-05T11:29:38.363+05:30  INFO 50954 --- [main] c.t.a.q.QryAccomidationApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-03-05T11:29:38.796+05:30  INFO 50954 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-03-05T11:29:38.802+05:30  INFO 50954 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-05T11:29:38.802+05:30  INFO 50954 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-05T11:29:38.827+05:30  INFO 50954 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-05T11:29:38.827+05:30  INFO 50954 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 433 ms
+2024-03-05T11:29:39.017+05:30  INFO 50954 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-03-05T11:29:39.022+05:30  INFO 50954 --- [main] c.t.a.q.QryAccomidationApplication       : Started QryAccomidationApplication in 0.912 seconds (process running for 1.098)
+2024-03-05T11:30:30.695+05:30  INFO 50954 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-05T11:30:30.695+05:30  INFO 50954 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-05T11:30:30.697+05:30  INFO 50954 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-03-05T11:30:30.722+05:30  INFO 50954 --- [http-nio-8080-exec-1] c.t.a.q.controller.TTDController         : test service invoked 2024-03-05T11:30:30.722050 

@@ -1,0 +1,19 @@
+logging:
+  file:
+    path: logs/
+    name: logs/ttd_app.log
+  level:
+    root: INFO
+  rolling-file:
+    enabled: true
+    file-name-pattern: logs/ttd_app-%d{yyyy-MM-dd-HHmmss}.log
+    max-history: 7
+    max-size: 10MB
+
+app:
+  email-recipient:
+      - rambabu0006@gmail.com
+      - rambabu.muddasani@gmail.com
+      - pmounika1616@gmail.com
+  cron-expression: 0 0/10 * 1/1 * ? *
+  ttdAccUrl: https://online.tirupatibalaji.ap.gov.in/sdn/rest/v1/acc/get_availability?for=dashboard&location=TIRUPATI
